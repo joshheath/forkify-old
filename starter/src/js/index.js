@@ -2,4 +2,6 @@
 
 import x from './test'
 
-console.log(`I imported ${x} from another module called test.js`);
+const y = 23;
+
+console.log(`I imported ${x} from another module called test.js. variable y is ${y}`);
